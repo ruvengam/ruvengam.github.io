@@ -138,5 +138,6 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-*ootstrap*
+
 .node_modules
+*bower_components
