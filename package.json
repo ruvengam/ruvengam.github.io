@@ -1,0 +1,22 @@
+{
+  "name": "ruvengam.github.io",
+  "version": "1.0.0",
+  "description": "Reuven Gampel playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruvengam/ruvengam.github.io.git"
+  },
+  "author": "Reuven Gampel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruvengam/ruvengam.github.io/issues"
+  },
+  "homepage": "https://github.com/ruvengam/ruvengam.github.io#readme",
+  "devDependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
