@@ -1,0 +1,21 @@
+{
+  "name": "ruvengam.github.io",
+  "description": "Reuven Gampel playground",
+  "main": "index.js",
+  "authors": [
+    "Reuven Gampel"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ruvengam/ruvengam.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  }
+}
