@@ -16,12 +16,16 @@
 	
 	<header class="container" >
 		<section class="row">
-			<h1 class="navbar-brand">
-				Gampel Reuven a Full Stack Web Developer
-			</h1>
+            <div class="navbar-brand">
+                <h1 class="">
+                    Gampel Reuven a Full Stack Web Developer |
+                </h1>
+                <span class="badge badge-info">Bootstrap 4</span>
+            </div>
+
 			<nav role="navigation" class="col navbar-nav">
 				<ul class="nav">
-					<li>Bootstrap <span class="badge badge-info">4</span></li>
+					<li></li>
 					<li></li>
 					<li></li>
 					<li></li>
@@ -96,7 +100,32 @@
 
             </section>
 		</article>
-		
+        <article class="container">
+            <section class="row main-alert-box">
+                <div class="col-sm-12 my-1">
+                    <label>Show Messages:</label>
+                    <select class="custom-select">
+                        <option value="all" selected>All</option>
+                        <option value="info">Info</option>
+                        <option value="warning">Warning</option>
+                        <option value="danger">Danger</option>
+                    </select>
+                </div>
+                <div class="col-sm-12 alert-box all">
+                    <div class="alert alert-danger">Error on server X</div>
+                    <div class="alert alert-warning">Warning Server X is heating up</div>
+                    <div class="alert alert-danger">Error on server X</div>
+                    <div class="alert alert-danger">Error on server X</div>
+                    <div class="alert alert-warning">Warning Server X is heating up</div>
+                    <div class="alert alert-info">Server X status OK</div>
+                    <div class="alert alert-info">Server X status OK</div>
+                    <div class="alert alert-info">Server X status OK</div>
+                    <div class="alert alert-info">Server X status OK</div>
+                    <div class="alert alert-warning">Warning Server X is heating up</div>
+                    <div class="alert alert-info">Server X status OK</div>
+                </div>
+            </section>
+        </article>
 	</main>
 	
 	<footer>
@@ -106,5 +135,6 @@
 	<script src="bower_components/jquery/dist/jquery.slim.min.js" ></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js" ></script>
+    <script src="./js/script.js" ></script>
   </body>
 </html>

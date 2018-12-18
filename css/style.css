@@ -7,3 +7,17 @@ h1 {
 summary {
     outline: none;
 }
+.brand-container {
+	white-space: nowrap;
+}
+
+.alert-box > div {
+	display: none;
+}
+
+.all > div,
+.warning > .alert-warning,
+.info > .alert-info,
+.danger > .alert-danger {
+	display: block;
+}
